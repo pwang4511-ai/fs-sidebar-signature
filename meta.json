@@ -1,0 +1,8 @@
+{
+  "name": "签名确认",
+  "description": "用于飞书多维表格生成签字链接、维护签字状态并回写签字图片。",
+  "version": "1.0.0",
+  "developer": "liupanqing",
+  "homepage": "https://liupanqing.asia",
+  "entry": "build/index.html"
+}
