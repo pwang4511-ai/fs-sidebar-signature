@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "signature-confirm",
+  "title": "签名确认",
+  "description": "飞书多维表格签名确认侧边栏插件",
+  "entry": "dist/index.html",
+  "type": "sidebar",
+  "host": "bitable",
+  "permissions": [
+    "base:read",
+    "base:write"
+  ]
+}
