@@ -1,0 +1,8 @@
+{
+  "name": "签名确认",
+  "description": "用于飞书多维表格生成签字链接、维护签字状态并回写签字图片。支持多签字流程、角色字段绑定、签字页字段排序、授权详情展示控制和图片预览增强。",
+  "version": "1.0.41",
+  "developer": "liupanqing",
+  "homepage": "https://liupanqing.asia",
+  "entry": "dist/index.html"
+}
