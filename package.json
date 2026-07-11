@@ -1,0 +1,29 @@
+{
+  "name": "fs-sidebar-signature-rebuilt",
+  "version": "1.0.42",
+  "type": "module",
+  "description": "飞书多维表格侧边栏签名插件",
+  "output": "dist",
+  "scripts": {
+    "dev": "vite",
+    "start": "npm run dev",
+    "build": "tsc && vite build",
+    "test:image-preview": "tsc --noEmit",
+    "test:sidebar-key-safety": "node tests/sidebar-key-safety.test.mjs",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "lark",
+    "base",
+    "signature",
+    "plugin"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4"
+  },
+  "dependencies": {
+    "@lark-base-open/js-sdk": "^0.5.0"
+  }
+}
